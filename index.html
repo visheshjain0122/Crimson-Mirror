@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GO</title>
+<style>
+  * {margin: 0; padding: 0; box-sizing: border-box;}
+
+  body {
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: center;
+    line-height: 1.6;
+    font-size: 14px;
+    overflow-y: auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
+
+  .lyrics-container {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px 16px 18px;
+    max-width: 600px;
+    width: 90%;
+    height: 80vh;
+    overflow-y: auto;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    scrollbar-width: thin;
+  }
+
+  h1 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+  }
+
+  .lyrics-content {
+    text-align: left;
+    white-space: pre-wrap;
+    font-size: 14px;
+    line-height: 1.8;
+    color: #fff;
+    flex: 1 1 auto;
+  }
+
+  .footer {
+    margin-top: 12px;
+    font-size: 12.5px;
+    text-align: left;
+    color: #ddd;
+  }
+
+  .lyrics-container::-webkit-scrollbar { width: 8px; }
+  .lyrics-container::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.4); border-radius: 4px; }
+</style>
+</head>
+<body>
+
+<video autoplay muted loop playsinline>
+  <source src="background.mp4" type="video/mp4">
+</video>
+
+<div class="lyrics-container">
+  <div>
+    <h1>GO</h1>
+    <div class="lyrics-content">
+<pre>
+He was 
+Drenched in pools of blood
+A hole, punched through his chest
+Layin, shaken, waken,
+Bits of brain, 
+Watching through the, hole in his head
+BANG 
+Life taken, body breakin, 
+call satan, 
+this bitch cant, stop hatin
+dear god, have you stopped believen
+
+Trigger Finger,
+Defying Odds
+Human Killer,
+I Am God
+Burn These Bridges,
+Slaves to Substance,
+One Statistic,
+Bleeds the future
+
+Where is your god, NOW
+
+Longing for a peace of mind,
+Said it'd be easy, you lied,
+Through Crimson Mirrors ill break you
+Empty Throne I Beg For Life
+
+I am 
+Drenched in pools of blood
+A Hole punched through my chest
+Layin, shaken, waken,
+Bits of brain, 
+Watching through the hole in my head
+BANG 
+Life taken, body breakin, 
+call satan, 
+this bitch cant, stop hatin
+Dear god, have you stopped believing
+</pre>
+    </div>
+  </div>
+
+  <div class="footer">
+    Lyrics by: Artist A, Artist B, Artist C
+  </div>
+</div>
+
+</body>
+</html>
